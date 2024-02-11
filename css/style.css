@@ -2,7 +2,85 @@
     display: grid;
 }
 
-.fitz-photos {
+.gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
+
+* {
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+
+  .nav-item{
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+
+  .nav-item:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .nav-item.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 17px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    font-weight: bold;
+  }
+
+    div {
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-top: 5px; 
+    margin-bottom: 5px;
+  }
+
+  li {
+    
+  }
+
+  a {
+    text-decoration: none;
+  }
